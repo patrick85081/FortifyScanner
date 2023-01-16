@@ -1,0 +1,5 @@
+﻿HostName: ""
+SshPort: 22
+EmployId: ""
+KeyPath: "id_rsa"
+Token: ""

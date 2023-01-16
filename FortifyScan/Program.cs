@@ -1,2 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using CommandLine;
+
+await CommandLine.Parser.Default.ParseArguments<RunArgs>(args)
+    .WithParsedAsync(async arg => await RunCommand.Run(arg));

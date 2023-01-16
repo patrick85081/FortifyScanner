@@ -1,0 +1,18 @@
+﻿ProjectName: 專案名稱
+ProjectCode: DXXX
+NotifyEmail:
+  - test@iisigroup.com
+IgnoreFiles:
+  - .git
+  - .gitignore
+  - .dockerignore
+  - .vs
+  - .idea
+  - bin
+  - obj
+  - bootstrap*
+  - vue
+  - Dockerfile*
+  - PublishProfiles
+  - images
+
